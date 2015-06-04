@@ -36,11 +36,10 @@ DEB_UPSTREAM_TARBALL_EXTENSION = tar.bz2
 CDBS_BUILD_DEPENDS_class_python-sugar_python = python
 
 # Override Sugar toolkit to use
-CDBS_BUILD_DEPENDS_class_python-sugar_sugar = python-sugar3, unzip
+CDBS_BUILD_DEPENDS_class_python-sugar_sugar = python-sugar-0.98, python-sugar-toolkit-0.98, unzip
 
 # Needed (always/often/seldom) at runtime
-CDBS_DEPENDS_$(pkg) = python, python-sugar3, python-gi, python-cairo
-CDBS_DEPENDS_$(pkg) +=, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-pango-1.0, gir1.2-gdkpixbuf-2.0
+CDBS_DEPENDS_$(pkg) = python, python-gobject-2, python-gtk2, python-cairo, python-sugar-0.98, python-sugar-toolkit-0.98
 CDBS_DEPENDS_$(pkg) +=, python-telepathy
-CDBS_DEPENDS_$(pkg) +=, gst-plugins-espeak
+CDBS_DEPENDS_$(pkg) +=, python-gst-1.0
 CDBS_RECOMMENDS_$(pkg) +=, sugar-$(DEB_SUGAR_PRIMARY_BRANCH)-icon-theme | sugar-icon-theme

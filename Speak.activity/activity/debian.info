@@ -4,7 +4,7 @@ version = 0godiard1
 vcs-git = https://github.com/godiard/speak.git
 vcs-browser = https://github.com/godiard/speak.git
 primary_branch = debian-packaging
-dependencies = telepathy, espeak
+dependencies = telepathy, python-gst-1.0
 
 [Maintainer]
 name = Debian Sugar Team
