@@ -1,0 +1,13 @@
+[Package]
+name = sugar-speak-activity
+version = 0godiard1
+vcs-git = https://github.com/godiard/speak.git
+vcs-browser = https://github.com/godiard/speak.git
+primary_branch = debian-packaging
+dependencies = telepathy, espeak
+
+[Maintainer]
+name = Debian Sugar Team
+email = pkg-sugar-devel@lists.alioth.debian.org
+uploaders = Jonas Smedegaard <dr@jones.dk>,
+ Gonzalo Odiard <godiard@gmail.com>
