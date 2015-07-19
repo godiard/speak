@@ -1,9 +1,5 @@
-sugar-speak-activity (51-1~godiard1) UNRELEASED; urgency=low
+sugar-speak-activity (51-2~godiard1) UNRELEASED; urgency=low
 
-  [ Debian Sugar Team ]
   * Initial version for Debian.
 
-  [ gonzalo ]
-  * Solve conflict with python-espeak package
-
- -- gonzalo <gonzalo@gonzalo-buildervm>  Fri, 05 Jun 2015 13:38:03 -0300
+ -- Debian Sugar Team <pkg-sugar-devel@lists.alioth.debian.org>  Sat, 18 Jul 2015 23:19:58 -0300
